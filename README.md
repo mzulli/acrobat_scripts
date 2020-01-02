@@ -1,2 +1,2 @@
-# acrobat_scripts
-Scripts to automate certain tasks in Acrobat
+# recolor_highlights
+Scripts to recolor highlighting in Adobe Acrobat.
