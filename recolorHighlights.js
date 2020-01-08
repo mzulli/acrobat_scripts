@@ -14,13 +14,9 @@
 //  Specify the color to be changed
 //    var oldColor = color.cyan
 
-//  Specify the new highlight color
-var colHilite = color.yellow;
-
-// PICKUP HERE -- what does this line do?
 var oDoc = event.target;
-
 var aAnnts = oDoc.getAnnots();
+var colHilite = color.yellow; //  Specify the new highlight color
 
 for(var i=0;i<aAnnts.length;i++)
 {
