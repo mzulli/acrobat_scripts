@@ -23,6 +23,7 @@ for(var i=0;i<aAnnts.length;i++)
   if(aAnnts[i].type == "Highlight") // && color.equal(aAnnts[i].strokeColor, oldColor)
   {
     aAnnts[i].type = "Highlight";
+    aAnnts[i].opacity = "1.0";
     aAnnts[i].strokeColor = colHilite;
   }
 }
